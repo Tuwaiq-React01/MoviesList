@@ -1,5 +1,25 @@
 <div dir="rtl" >
-  
+
+# Movies List | صفحة عرض أفلام 
+
+### المتدرب : محمد الحربي 
+
+### المشرفة : لمياء القحطاني
+
+### مجموعة : طويق
+
+
+<hr>
+
+
+# Screenshots 
+
+<img src="https://i.ibb.co/qr0L9Ky/Capture-11.png" alt="1">
+<hr>
+
+<img src="https://i.ibb.co/VvJtGtS/Capture-12.png" alt="2">
+
+
 # Movies List | صفحة عرض أفلام 
 
 قم ببناء صفحة باستخدام React لعرض مجموعة من الأفلام السينيمائية 
