@@ -1,4 +1,4 @@
 function Title(props) {
-    return <h1>{props.name}</h1>;
+    return <h1>{props.text}</h1>;
   }
   export default Title ;
