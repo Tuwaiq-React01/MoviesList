@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .image{
+    width: 150px;
+    height: 300px;
+  }
