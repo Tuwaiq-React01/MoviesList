@@ -1,6 +1,21 @@
+# Movies List | صفحة عرض أفلام 
+
+<br />
+<b> Student:</b>  Mohammed Rashed Albalawi.
+<br />
+<b> Group:</b>  Al-qiddiyah.
+<br />
+<b> Group Instructor:</b>  Noorah Abdullah.
+
+
+<br />
+<hr />
+<br />
+
+
+
 <div dir="rtl" >
   
-# Movies List | صفحة عرض أفلام 
 
 قم ببناء صفحة باستخدام React لعرض مجموعة من الأفلام السينيمائية 
 
