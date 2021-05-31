@@ -1,0 +1,44 @@
+.RootDiv{
+    display: grid;
+    height: 800px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    background-color: #0a03038e;
+    padding: 50px; 
+    box-shadow: 5px 10px #080303
+}
+
+h1{
+    color:floralwhite;
+    text-align: center;
+    text-shadow: 5px 10px #080303
+}
+
+.title{
+    font-size: 25px;
+}
+
+body{
+    background-color: rgb(47, 47, 63);
+    margin-top: 100px;
+}
+
+.RootDiv> div {
+    background-color: rgba(90, 86, 86, 0.575);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color:floralwhite;
+    box-shadow: 5px 10px #080303
+  }
+
+img{
+    height:250px;
+    width: 150px;
+}
+button{
+  
+    background-color: grey;
+    color: rgb(29, 34, 58);
+}
