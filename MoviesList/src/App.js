@@ -43,7 +43,7 @@ function App() {
           {movies1}
         </div>
       </div>
-      <footer>2021</footer>
+      <footer>@2021 | Amal Almutairi</footer>
     </div>
   );
 }
