@@ -2,6 +2,10 @@
   
 # Movies List | صفحة عرض أفلام 
 
+رابط المشروع:
+  
+  https://albandryalqaseemi.github.io/react-movies/
+  
 قم ببناء صفحة باستخدام React لعرض مجموعة من الأفلام السينيمائية 
 
 
