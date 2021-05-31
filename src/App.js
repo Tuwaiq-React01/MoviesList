@@ -9,7 +9,7 @@ export default class App extends Component {
             <div>
             <Title text="BooK Movie" />
                <MovieList/>
-                <Bye name="See you again" />
+                <SeeYou name="See you again" />
             </div>
         )
     }
