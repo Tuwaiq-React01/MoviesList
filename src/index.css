@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Montserrat";
+
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+  background: rgb(95, 67, 211);
+}
+
+.movieCard {
+  margin: 2em;
+  
+  flex: 0;
+  width: 40%;
+  min-width: 450px;
+  height: 280px;
+  display: flex;
+  justify-content: left;
+  border-radius: 1em;
+  -webkit-box-shadow: 3px 13px 14px -5px #00000098;
+  box-shadow: 3px 13px 14px -5px #0000007c;
+
+  background: rgba( 255, 255, 255, 0.25 );
+
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.MyButton {
+
+  color: white;
+  margin: 1em;
+  padding: 0.7em;
+  -webkit-box-shadow: 3px 13px 14px -5px #00000067;
+  box-shadow: 3px 13px 14px -5px #00000059;
+  background: rgba( 255, 255, 255, 0.25 );
+
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.details-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 240px;
+  width: 180px;
+}
+
+.MovieTitle {
+  color: rgb(234, 231, 246);
+  margin-top: 40px;
+  font-weight: 700;
+
+}
+
+.Description {
+  margin: 1em;
+  line-height: 1.4;
+}
