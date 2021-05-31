@@ -13,13 +13,13 @@ export default class movieList extends Component {
             {"id":"495925","title":"Doraemon the Movie: Nobita's Treasure Island","poster":"https://image.tmdb.org/t/p/w500/xiLRClQmKSVAbiu6rgCRzNQjcSX.jpg","overview":"The story is based on Robert Louis Stevenson's Treasure Island novel.","release_date":1520035200,"genres":["Animation"]},
             {"id":"329996","title":"Dumbo","poster":"https://image.tmdb.org/t/p/w500/deTOAcMWuHTjOUPQphwcPFFfTQz.jpg","overview":"A young elephant, whose oversized ears enable him to fly, helps save a struggling circus, but when the circus plans a new venture, Dumbo and his friends discover dark secrets beneath its shiny veneer.","release_date":1553644800,"genres":["Adventure","Family","Fantasy"]}];
         let list = Movies.map((val,index)=>(
-            <div class="card mb-4 bg-light" style={{ width: '35rem' }}>     
+            <div class="card mb-4 bg-light" style={{ width: '35rem',  marginLeft:"30px",display:"inline-table"}}>     
             <div class="row">    
             <div class="col"> 
             <img class="card-img-top" src={val.poster} alt="Card image cap" />      
              </div>           
              <div class="col">  
-              <div class="card-body bg-light">  
+              <div style={{display: "inline-table", marginLeft:"30px"}}>  
             <h5 class="card-title">{val.title}</h5>
              <h6>{val.release_date}</h6>  
               <p class="card-text">{val.overview}</p> 
