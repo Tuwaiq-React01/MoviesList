@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  width: 600px;
+  margin: 10px;
+}
+
+img {
+  height: 250px;
+}
+
+.details{
+  padding-left: 20px;
+}
+
+.details p {
+  margin-top: 20px;
+}
+
+.App {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
