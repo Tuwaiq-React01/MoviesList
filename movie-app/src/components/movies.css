@@ -1,0 +1,20 @@
+#unit{
+	background-color: #f8e9a7;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+div{
+	align-content: center;
+	align-self:center ;
+	margin-bottom: 5px;
+}
+img{
+	margin-bottom: 10px;
+}
+button{
+	align-self: center;
+}
+.bigDiv{
+	margin: 5px;
+	padding: 10px;
+}
