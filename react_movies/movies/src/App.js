@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-
+import Movie from './Movie.js'
 
 function App() {
   const Movies = [
@@ -14,23 +12,19 @@ function App() {
     { id: 6, name: 'Beauty and the Beast',Language: "English", rate:"7.1", type:"Family, Fantasy",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQbkzRaFKRmUfugN_5jxctjj80g5TGdy0J8A&usqp=CAU", Button:"Book"  }
   
   ];
+  const movieList = Movies.map((value, i) => {
+    return <Movie key={i} name={value.name} Language={value.Language}
+  rate={value.rate} type={value.type}  image={value.image} Button={value.Button}/>
+  })
   return (
-    <div className="App">
-      {Movies.map(data => (
-        <div class="d1" key={data.id}>
-           <div class="name"> {data.name}</div> 
-            <div className="mb-0">Language: {data.Language}</div> 
-            <div className="mb-0">Rate: {data.rate}</div> 
-            <div className="mb-0">Type: {data.type}</div> 
-           <div ><img class="imgS" src= {data.image} width="200" height="200"></img> </div>
-           <div> <Button variant="info">{data.Button} </Button></div>
-          
-           </div>
-        
-      ))}
 
-    </div>
-  );
+  <div >
+ 
+{movieList}
+</div>
+
+
+  )
 }
 
 export default App;

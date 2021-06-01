@@ -1,4 +1,5 @@
 .App {
+  display: inline-table; 
   text-align: center;
   background-color: slategrey;
 }
@@ -38,13 +39,14 @@
   }
 }
 .d1{
-  display: inline-table; 
+  display: inline-table;
   width: 300px;
   height: 200px;
-  padding: 10px;
+  padding: 15px;
   margin-top: 25px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
   border-style: double;
   color:lightgoldenrodyellow ;
   
