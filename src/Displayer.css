@@ -1,0 +1,38 @@
+.colDisplayer{
+    position:relative;
+    display:flex ;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    
+}
+.img{
+    width: 200px;
+    height: 300px;
+    /* padding-top: 10%;  */
+    padding-bottom: 5%;
+}
+.displayer{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pEditor{
+    
+    padding-left: 10%;
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+
+}
+.title{
+    padding-left: 7%;  
+}
+.buttonEditor{
+    position:absolute;
+    top: 255px;
+    margin-left:10% ;
+    color: black;
+    background-color: yellowgreen;
+}
