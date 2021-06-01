@@ -5,17 +5,13 @@
 قم ببناء صفحة باستخدام React لعرض مجموعة من الأفلام السينيمائية 
 
 
-  <br/>
-  <br/> 
-  
-  # المتطلبات
-  1. إنشاء مُكون Component
-  2. استخدام props 
-  3. تنسيق المكونات 
-  
+
 
   <br/>
   <br/> 
     
   # مثال 
-  </div><img width="1263" alt="Screen Shot 1442-10-14 at 10 54 34 AM" src="https://user-images.githubusercontent.com/80157029/120147813-eea3f880-c1ef-11eb-9398-77aa6a9970f8.png">
+  </div>
+  
+  <img width="952" alt="Movie-List" src="https://user-images.githubusercontent.com/82510846/120305645-b11b9a00-c2d9-11eb-8bc2-3f38847f6a2a.PNG">
+
