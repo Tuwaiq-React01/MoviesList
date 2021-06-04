@@ -1,6 +1,8 @@
 
 import './App.css';
 import MovieCard from './MovieCard'
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   let movies = [
