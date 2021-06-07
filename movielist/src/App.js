@@ -1,10 +1,12 @@
-//import React from 'react';
 import './App.css';
-//import React, { Component } from "react";
+import List from './List'
+import axios from 'axios'
+import React, { Component } from "react";
 import MoviesList from "./MoviesList";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container'
+import Clock from './Clock'
 
 function App() {
         
@@ -102,10 +104,17 @@ function App() {
     })
     return (
         <div>
-         <center><img className="photo" src  = "https://www.hipi.info/wp-content/uploads/2015/07/tom-and-jerry-facebook-cover-01.jpg" alt= ""></img></center> 
+
+         {/* <center><img className="photo" src  = "https://www.hipi.info/wp-content/uploads/2015/07/tom-and-jerry-facebook-cover-01.jpg" alt= ""></img></center>  */}
               <center><div className = "test">
-       <h1>Welcome to tom&Jerry movie list</h1> 
+       <h1>Welcome to Tom and Jerry movies</h1> 
+       <Clock />
       </div>
+       <h1>            
+--------------------------
+--------------------------
+
+       </h1>
 </center>    
             <Container>
                 <Col>

@@ -45,11 +45,22 @@ img {
 }
 
 .test {
+  font-family: 'Baloo Tammudu 2'; 
+   justify-content:space-between;
   color: rgb(36, 30, 30);
+  font-style: unset;
   background-color: rgb(250, 248, 192);
+
 }
 
 .photo {
-width: 2150px;
+  justify-content:center;
+width: 1650px;
 height: 400px;
+}
+
+Time {
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
 }
