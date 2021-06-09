@@ -1,4 +1,23 @@
 <div dir="rtl" >
+ 
+  
+  ![movieListDemo](https://user-images.githubusercontent.com/82468827/121418352-88e40900-c973-11eb-82b9-9c1985109cd2.jpg)
+
+  
+  
+  # بيانات المتدرب:
+  
+  
+  
+  المتدرب: معتز العحلان
+  
+  
+  المشرفة: غادة المطيري
+  
+
+  المجموعة: السودة
+  
+  
   
 # Movies List | صفحة عرض أفلام 
 
