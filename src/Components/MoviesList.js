@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import Movie from './Movies'
 
+export default class DisplayMovie extends Component {
 
-export default class Movies extends Component {
     render() {
-        const movieList = [
+        const moviesList = [
             {
                 title: "Shazam!",
                 poster: "https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
@@ -47,28 +48,9 @@ export default class Movies extends Component {
                 release_date: 1553644800,
             }
         ]
-        let movieInfo = movieList.map((movie, i) => (
-
-            <div className="col" style={{ paddingTop: "40px" }}>
-                <div className="card" style={{ width: "20rem" }}>
-                    <div className="card-header">
-                        <h5 className="card-title" style={{ textAlign: "center" }}>{movie.title}</h5>
-                    </div>
-                    <img src={movie.poster} className="card-img-top" alt={`${movie.title} Poster`} />
-                    <div className="card-body">
-                        <p className="card-text"><b>Release date:</b>
-                            {movie.release_date}</p>
-                        <p>{movie.overview}</p>
-                        <a href="#" className="btn btn-success">Book this movie</a>
-                    </div>
-                </div>
-            </div>
-        ))
         return (
-            <div className="container">
-                <div className="row align-items-start">
-                    {movieInfo}
-                </div>
+            <div>
+                <Movie movies={moviesList} />
             </div>
         )
     }
